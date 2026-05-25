@@ -1,72 +1,114 @@
 # Cassia Faustino | CRM & Salesforce Marketing Cloud
 
-Profissional de CRM & Lifecycle Marketing com foco em Salesforce Marketing Cloud, SQL, automação de jornadas, segmentação avançada e campanhas multicanal.
+Profissional de CRM & Lifecycle Marketing com experiência em Salesforce Marketing Cloud, SQL, automação de jornadas, segmentação avançada e campanhas de e-mail marketing.
 
-Este portfólio reúne projetos, documentações e estudos técnicos relacionados a CRM, Marketing Automation, Salesforce Marketing Cloud, SQL e estratégias de retenção, engajamento e conversão.
+Este repositório reúne documentações técnicas, estruturas SQL, jornadas automatizadas e templates HTML desenvolvidos com foco em CRM, Marketing Automation e estratégias orientadas por dados.
 
-## Áreas de atuação
+---
 
-- Salesforce Marketing Cloud
+# Áreas de atuação
+
+- Salesforce Marketing Cloud (SFMC)
+- CRM & Lifecycle Marketing
+- Marketing Automation
 - SQL para segmentação e automação
 - Journey Builder
 - Automation Studio
 - Data Extensions
-- CRM & Lifecycle Marketing
-- Campanhas multicanal
-- E-mail Marketing, SMS, Push e WhatsApp
-- Testes A/B e análise de performance
+- HTML para E-mail Marketing
+- Campanhas de e-mail marketing
 - Governança e qualidade de dados
+- Estratégias de retenção e reengajamento
 
-## Projetos em destaque
+---
 
-### Salesforce Marketing Cloud — SQL Segmentation
+# Estrutura do repositório
 
-Documentação de queries e lógicas de segmentação utilizadas em projetos de CRM, incluindo:
+## SFMC SQL
 
-- Deduplicação de bases com ROW_NUMBER()
-- Segmentação de leads e clientes
+Documentações e estruturas SQL voltadas para campanhas, segmentações e automações no Salesforce Marketing Cloud.
+
+### Projetos incluídos
+
 - Carrinho abandonado
+- Campanhas promocionais recorrentes
 - Lançamento de unidades
-- Campanhas de reengajamento
-- Controle de opt-in, bounce e status de assinante
+- Data Views
+- Controle de elegibilidade e engajamento
+- Deduplicação de registros
 
-### CRM Journey Documentation
+### Técnicas utilizadas
 
-Documentações funcionais e técnicas de jornadas automatizadas, incluindo:
+- ROW_NUMBER()
+- UNION ALL
+- LEFT JOIN
+- NOT EXISTS
+- Data Views
+- Segmentação comportamental
+- Deduplicação de registros
+- Governança de dados
+
+---
+
+## Journeys
+
+Documentações funcionais e estratégicas de jornadas automatizadas de CRM.
+
+### Jornadas incluídas
 
 - Onboarding
-- Recuperação de ex-clientes
+- Upgrade de planos
 - Usuários sem acesso
-- Upgrade de plano
-- Réguas de relacionamento
+- Recuperação de ex-clientes
+
+### Estratégias aplicadas
+
+- Critérios de entrada e saída
+- Controle de reentrada
+- Clusterização comportamental
+- Segmentação por comportamento
 - Estratégias de retenção
+- Lifecycle Marketing
 
-### HTML Email Templates
+---
 
-Templates de e-mail marketing desenvolvidos para campanhas em Salesforce Marketing Cloud e Braze, com foco em:
+## HTML Emails
+
+Estruturas HTML desenvolvidas para campanhas de CRM e automação de marketing.
+
+### Recursos aplicados
 
 - Estrutura responsiva
-- Personalização dinâmica
+- Dynamic Content
 - Content Blocks
-- Links com UTM
-- Header, banner, CTA e footer
+- Links parametrizados com UTM
+- Estrutura modular
+- Compatibilidade com Salesforce Marketing Cloud e Braze
 
-## Ferramentas e tecnologias
+---
+
+# Ferramentas e tecnologias
 
 - Salesforce Marketing Cloud
 - Braze
-- HubSpot
-- Customer.io
-- ActiveCampaign
-- Twilio
 - SQL
 - HTML/CSS
-- Google Analytics 4
+- Journey Builder
+- Automation Studio
+- Google Analytics
 - Excel / Google Sheets
 - Looker Studio
 
-## Sobre mim
+---
 
-Atuo com CRM Marketing, automação e dados, ajudando empresas a criarem jornadas mais inteligentes, segmentações mais precisas e campanhas orientadas por comportamento e performance.
+# Sobre mim
+
+Atuo com CRM Marketing e automação focados em retenção, engajamento e performance, desenvolvendo jornadas, segmentações e campanhas orientadas por comportamento e dados.
 
 Tenho experiência em projetos LATAM, comunicação com stakeholders internacionais em espanhol e atuação integrada com times de Produto, Dados, Marketing e Tecnologia.
+
+---
+
+# Objetivo deste portfólio
+
+Demonstrar conhecimentos técnicos e estratégicos em CRM, Marketing Automation e Salesforce Marketing Cloud através de documentações, exemplos estruturados e arquiteturas utilizadas em projetos de CRM e Lifecycle Marketing.
