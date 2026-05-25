@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Dynamic CRM Campaign</title>
+</head>
+
+<body bgcolor="#E6E6E6" style="margin:0; padding:0; background-color:#E6E6E6;">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#E6E6E6" role="presentation">
+<tr>
+<td align="center">
+
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000" style="width:600px; background-color:#000000;" role="presentation">
+
+<!-- HEADER -->
+<tr>
+<td align="center" style="padding:0;">
+  <!-- Dynamic header placeholder -->
+  {{content_blocks.${HEADER_EMAIL_TEMPLATE}}}
+</td>
+</tr>
+
+<!-- HERO BANNER -->
+<tr>
+<td align="center" style="padding:0; line-height:0; font-size:0;">
+  <a href="https://example.com?utm_source=email&utm_medium=crm&utm_campaign={{campaign.${name}}}&utm_content=hero_banner" target="_blank">
+    <img 
+      src="https://via.placeholder.com/600x360"
+      width="600"
+      border="0"
+      style="display:block; width:600px; max-width:600px; height:auto;"
+      alt="Campaign banner">
+  </a>
+</td>
+</tr>
+
+<!-- TEXT BLOCK -->
+<tr>
+<td align="center" style="padding:36px 42px 24px 42px;">
+
+  <p style="margin:0 0 18px 0; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:26px; line-height:32px; font-weight:bold; text-align:center;">
+    Olá, {{${first_name} | default: 'cliente'}}!
+  </p>
+
+  <p style="margin:0; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:18px; line-height:28px; font-weight:400; text-align:center;">
+    Esta comunicação foi estruturada para campanhas de CRM com personalização dinâmica, links parametrizados e blocos reutilizáveis.
+  </p>
+
+</td>
+</tr>
+
+<!-- CTA -->
+<tr>
+<td align="center" style="padding:0 42px 36px 42px;">
+
+  <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+    <tr>
+      <td align="center" bgcolor="#FFD100" style="border-radius:4px;">
+        <a href="https://example.com?utm_source=email&utm_medium=crm&utm_campaign={{campaign.${name}}}&utm_content=cta"
+           target="_blank"
+           style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:20px; color:#000000; text-decoration:none; padding:14px 32px; display:inline-block; font-weight:bold;">
+          CONFERIR
+        </a>
+      </td>
+    </tr>
+  </table>
+
+</td>
+</tr>
+
+<!-- SECONDARY BANNER -->
+<tr>
+<td align="center" style="padding:0 0 32px 0; line-height:0; font-size:0;">
+  <img 
+    src="https://via.placeholder.com/520x160"
+    width="520"
+    border="0"
+    style="display:block; width:520px; max-width:520px; height:auto;"
+    alt="Secondary banner">
+</td>
+</tr>
+
+<!-- FOOTER -->
+<tr>
+<td align="center" style="padding:0;">
+  <!-- Dynamic footer placeholder -->
+  {{content_blocks.${FOOTER_EMAIL_TEMPLATE}}}
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
